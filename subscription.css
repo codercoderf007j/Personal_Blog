@@ -1,0 +1,33 @@
+/*subscription page*/
+
+    p{
+        color: tomato;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        font-size: 24px;
+        
+    }
+    .img8{
+        border: solid red;
+        margin-left: 610px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .goback{
+        background-color: thistle;
+        font-family: fantasy;
+        font-size: 28px;
+        margin-left: 715px;
+        text-shadow: seagreen;
+        border: solid black
+    }
+
+    h1{
+        background-color: darkgray;
+        text-align: center;
+        
+    }
+  
+

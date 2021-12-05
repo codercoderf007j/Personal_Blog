@@ -1,0 +1,315 @@
+/*index CSS*/
+
+@import url('/css/blogpost.css');
+@import url('/css/subscription.css');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body{
+    background-color: lightblue;
+}
+
+/* find out how to make font or text bold in CSS*/
+
+nav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+button{
+    color: black;
+    font-size: 16px;
+    background-color: rgb(26, 134, 243);
+    font-weight: bold;
+    border-radius: 10px 0 10px 0;
+    margin-top: 190px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.button1:hover {
+    background-color: red;
+    color: white;
+}
+
+.button2:hover {
+    background-color: red;
+    color: white;
+
+}
+
+.button3:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 2000px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    
+}
+
+.box{
+    border: solid 1px;
+   
+}
+
+.header{
+    grid-area: hd;
+    background-image: url('/images/img1.jpg');
+    background-size: contain;
+
+}
+
+/* for the footer area*/
+
+.footer{
+    grid-area: ft;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.backto-top:hover{
+    background-color: red;
+    color: white;
+}
+
+.backto-top{
+    margin-top: 10px;
+    text-shadow: slategray;
+    margin-bottom: 10px;
+
+}
+
+.footerlinks{
+    padding: 10px;
+    margin: 10px;
+    background-color:whitesmoke;
+    border: solid gray;
+}
+
+
+
+/* for the side bar*/
+/*for the newsguy blog image*/
+
+.sidebar{
+    grid-area: sd;
+    background-color: darkred;
+    box-shadow: white;
+    height: 2000px;
+}
+
+.img1{
+   height: 200px;
+   width: 200px;
+   border-radius: 0 0 0 0;
+   margin-left: 50px;
+   margin-top: 30px;
+   border: solid white 10px;
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 0 0;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: solid white 10px;
+ }
+
+.blog-post{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: cornsilk;
+    background-color: darkred;
+    margin-top: 140px;
+}
+
+/*the newsguy blog image in the round*/
+.img3{
+    border-radius: 55%;
+    width: 900px;
+    height: 900px;
+    zoom: 20%;
+    padding-bottom: 20px;
+    margin-right: 50px;
+
+}
+
+/* for the newslady*/
+.img4{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.img5{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+/* inputs for the newsguy blog*/
+.form-check{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.SUB{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+/* for the content box*/
+.content{
+    grid-area: main;
+    background-color: deepskyblue;
+}
+
+/* for the headline in conent box*/ 
+.headline{
+    color: ghostwhite;
+    font-size: 44px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-left: 182px;
+    
+}
+
+/* for the article in content box*/
+.article{
+    color: ghostwhite;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+li{
+    font-weight: bold;
+    color: white;
+    
+}
+
+ul{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+blockquote{
+    text-align: center;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+.pquote{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: bold;
+    background-color: thistle;
+    margin-bottom: 100px;
+    
+}
+
+.img4-1{
+    height: 190px;
+    width: 190px;
+    border-radius: 0 0 0 0;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: khaki;
+}
+
+.img6{
+    height: 190px;
+    width: 190px;
+    border-radius: 0 0 0 0;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: khaki;
+}
+
+.img7{
+    height: 190px;
+    width: 190px;
+    border-radius: 0 0 0 0;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: khaki;
+}
+
+
+
+
+  @media (min-width: 330px) and (max-width:1100px){
+    .container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 2000px;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd main main  main main main main"
+        "ft ft ft ft ft ft ft ft";
+        border: 5px solid aquamarine;
+    }
+}
+
+  /* medium screens*/
+  
+  @media (min-width: 600px) and (max-width:1500px){
+    .container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 250px 2000px;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd main main  main main main main"
+        "ft ft ft ft ft ft ft ft";
+        border: 5px solid aquamarine;
+    }
+}
+
+
+/* large screens*/ 
+@media (min-width:2001px){
+    .container{
+        border: 2px solid blue;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "sd sd main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+        
+    }
+}
