@@ -14,5 +14,5 @@
 
 📇 #Result:
 
-![About Page] (https://github.com/codercoderf007j/Personal_Blog/blob/66d4b3635c65c040aeaea4c922c30a9ee2e9abad/personal%20blog%20resutls.png)
+![About Page](https://github.com/codercoderf007j/Personal_Blog/blob/66d4b3635c65c040aeaea4c922c30a9ee2e9abad/personal%20blog%20resutls.png)
 
